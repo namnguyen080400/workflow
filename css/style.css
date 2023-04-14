@@ -1,55 +1,23 @@
 
-.row-eq-height {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+
+#linkMenu {
+    background-color: chartreuse;
 }
 
-.flex-container {
-    display: flex;
-    height: 400px;
-    align-items: top;
+#a {
+    background-color: aqua;
 }
 
-.col-container {
-    display: table; /* Make the container element behave like a table */
-    width: 80%; /* Set full-width to expand the whole page */
+#b {
+    background-color: green;
 }
 
-.col {
-    display: table-cell; /* Make elements inside the container behave like table cells */
+#c {
+    background-color: orchid;
 }
 
-
-/*
-@media only screen and (max-width: 576px) {
-    .col {
-        display: block;
-        width: 80%;
-    }
+body {
+    background-color: darkorange;
 }
 
-@media only screen and (max-width: 768px) {
-    .col {
-        display: block;
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .col {
-        display: block;
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .col {
-        display: block;
-        width: 80%;
-    }
-}
-
-*/
 
